@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+crossorigin="anonymous" 
+referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<div class="container">
+    <div class="card mt-4">
+        <div class="card-header text-center">
+        <h1>CALCULATOR</h1>
+        </div>
+        <div class="card-body"> 
+        Hasil= <b id="Hasil"></b>
+        </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+//Integer
+let x = 5;
+
+//Float
+let y = 10.5;
+
+//string
+let nama = "Amirul Fahmi A";
+
+//Boolean
+let hasmoney= true
+
+//array
+let mahasiswa = ["Fahmi", "Dhoni", "Dono", "Vito"];
+
+//objects
+let Orang={
+    Nama:"Amirul Fahmi ",
+    NIM:"22/496736/SV/20997",
+    Umur:"19 Tahun"
+};
+
+//Date
+let TanggalSekarang = new Date();
+let tahun =TanggalSekarang.getFullYear();
+let bulan = TanggalSekarang.getMonth();
+
+document.getElementById("Hasil").innerHTML = bulan;
+console.log(x+y);
+
+
+</script>
+</body>
+</html>
